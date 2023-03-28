@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Actividad 01</title>
+        <link rel="stylesheet" href=".\css\styles01.css" />
+    </head>
+
+    <body>
+        <h1>Eventos en Bogotá 2023</h1>
+        <p>Durante el transcurso del año, se puede encontrar una serie de eventos culturales para todos los ciudadanos.</p>
+        <p>Por favor tener en cuenta, que algunos de los siguientes eventos son gratuitos para los
+            miembros de la comunidad:</p>
+        <ul>
+            <li>Deportes</li>
+            <li>Conciertos</1i>
+            <li>Exposiciones</li>
+            <li>Cultural</li>
+        </ul>
+<div style="text-align:center;">
+        <table border="1" style="margin: 0 auto;">
+            <tr class="head">
+                <th></th>
+                <th>1</th>
+                <th> 2</th>
+                <th>3 </th>
+                </tr>
+            <tr>
+                <th>Deportes</th>
+                <td> Lun, 27 Mar 2023<br/>Jaguares FC vs Deportivo Pasto </td>
+                <td> Mier, 29 Mar 2023<br/>Deportes Tolima vs Millonarios FC</td>
+                <td> Jue, 30 Mar 2023<br/> Unión Magdalena vs Fortaleza CEIF</td>
+            </tr>
+            <tr class="even">
+                <th>Corferias</th>
+                <td> Mar, 18 Abr - Mar, 2 May 2023 <br /> Filbo 2023</td>
+                <td> Jue, 7 Sep - Dom, 24 Sep 2023<br /> Feria del Hogar 2023x</td>
+                <td> Jue, 12 Oct - Lun, 16 Oct 2023<br />SOFA 2023</td>
+            </tr>
+            <tr>
+                <th>Concierto</th>
+                <td> Mier, 19 Abril 2023<br />Bogota Metal Fest en el Royal Center </td>
+                <td> Vie, 21 Abril 2023<br />Santiago Cruz en el Movistar Arena</td>
+                <td> Vie, 28 Abril 2023<br />Los Autenticos Decadentes en el Movistar Arena</td>
+            </tr>
+            <tr class="even">
+                <th>Cultural</th>
+                <td> Sab, 8 Abr 2023<br />Cirque du Soleil</td>
+                <td> Jue, 30 Mar 2023<br />Stanp up comedy - pa' quebrarse de la risa</td>
+                <td> Vie, 31 Mar 2023<br />Obra de teatro Crimen y Castigo</td>
+            </tr>
+        </table>
+</div>
+        <br>
+        <form action="actividad 02.html" method="get"><center>
+            <fieldset>
+                <legend>Registrese en la actividad de su interes:</legend>
+                <p><label class="title" for="name">Su Nombre:</label>
+                    <input type="text" name="name" id="name"><br />
+                    <label class="title" for="email">Su correo:</label>
+                    <input type="text" name="email" id="email">
+                </p>
+                <p><label for="location" class="title">Su centro cercano:</label>
+                    <select name="location" id="location">
+                        <option value="bo">Bogotá</option>
+                        <option value="ib">Ibagué</option>
+                        <option value="me">Medellín</option>
+                    </select>
+                </p>
+                <span class="title">Es Miembro de la Comunidad?</span>
+                <label><input type="radio" name="member" value="si" />
+                    si</label>
+                <label><input type="radio" name="member" value="no" />
+                    No</label></p>
+            </fieldset>
+            <div class="submit"><input type="submit" value="Registro" />
+            </div>
+        </form></center>
+    </body>
+
+</html>

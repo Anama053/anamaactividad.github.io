@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Actividad 04</title>
+        <link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
+        <style type="text/css">
+            @font-face {
+                font-family: 'QuicksandBook';
+                src: url(' fonts/Quicksand_Book-webfont.eot');
+                src: url(' fonts/Quicksand_Book-webfont.eot?#iefix') format ('embedded-opentype'),
+                    url('fonts/Quicksand_Book-webfont.woff') format ('woff'),
+                    url('fonts/Quicksand_Book-webfont.ttf') format ('truetype'),
+                    url('fonts/Quicksand_Book-webfont.svg#Quicksandbook') format ('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            body {
+                color: #ffffff;
+                background: linear-gradient(30deg, rgba(167,173,174,1) 0%, rgba(54,55,57,1) 29%, rgba(124,124,150,1) 100%);
+                font-family: Georgia, "Times New Roman", Times, serif;
+                font-size: 90%;
+                margin: 0px;
+                text-align: center;
+            }
+
+            a {
+                color: #b5c1ad;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #ffffff;
+            }
+
+            .header {
+                background-image: ur1 ("images/bg-header.jpg");
+                padding: 0px 0px 0px 0px;
+                height: 100px;
+                position: fixed;
+                top: 0px;
+                width: 100%;
+                z-index: 50;
+            }
+
+            .nav {
+                float: right;
+                font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+                padding: 45px 0px 0px 0px;
+                text-align: right;
+            }
+
+            .wrapper {
+                width: 960px;
+                margin: 0px auto;
+                background-image: url("images/bg-triangle.png");
+                background-repeat: no-repeat;
+                background-position: 0px 0px;
+                text-align: left;
+            }
+
+            .logo {
+                margin-bottom: 20px;
+            }
+
+            h1,
+            h2 {
+                font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+                font-weight: normal;
+                text-transform: uppercase;
+            }
+
+            h1 {
+                font-size: 240%;
+                margin-top: 140px;
+            }
+
+            .date {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 75%;
+                color: #b5c1ad;
+            }
+
+            .intro {
+                clear: left;
+                font-size: 90%;
+                line-height: 1.4em;
+            }
+
+            .main-story {
+                background-image: url("images/cop.jpg");
+                background-repeat: no-repeat;
+                background-position: 50px 122px;
+                height: 570px;
+		    
+            }
+
+            .more-articles {
+                border-top: 1px solid #ffffff;
+                padding: 10px;
+            }
+
+            .more-articles p {
+                border-bottom: 1px solid #807c72;
+                padding: 5px 0px 15px 0px;
+                font-size: 80%;
+            }
+
+            .more-articles p:last-child {
+                border-bottom: none;
+            }
+
+            .footer {
+                clear: both;
+                background: rgba(0, 0, 0, 0.2);
+                padding: 5px 10px;
+            }
+
+            .footer p {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 75%;
+                text-align: center;
+            }
+
+            .footer a {
+                color: #807c72;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="container_12">
+                <div class="grid_5">
+                    <img src="images/logo.jpg" alt="Futbol" width="216" height="37" class="logo" />
+                    
+                </div>
+                <div class="nav grid_7">
+                    <a href="index.html">inicio</a> / <a href="https://www.marca.com/futbol/2023/03/27/641da431ca4741861b8b4582.html">noticias</a> /
+                    <a href="actividad01.html">archivos</a> / <a href="actividad02.html">aceca de</a> / <a href="actividad03.html">contacto</a>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="main-story container_12">
+                <div class="grid_6 push_6">
+                    <h1><a href="https://www.elespectador.com/el-magazin-cultural/como-se-vive-un-clasico-i-futbol-paradojico/">Como se vive un clasico</a></h1>
+                </div>
+                <div class="intro grid_3 push_9">
+                    <p class="date">26 Mar. 2023</p>
+                    <p>Primero, es muy importante seleccionar los ingredientes que han de tener los clásicos. Los clásicos son clásicos, dicen, porque han pasado la prueba del tiempo y, en consecuencia, es menester conocer cuáles de los escritores universales han atravesado dichos umbrales temporales”. Ojo, no sé quién se metió en esta historia porque yo quería hacer alusión a los clásicos en el fútbol.<a href="https://www.elespectador.com/el-magazin-cultural/como-se-vive-un-clasico-i-futbol-paradojico/">Continuar leyendo...</a></p>
+                </div><!--.main-story -->
+                <div class="more-articles container_12">
+                    <h2 class="grid_12"><a href="https://www.futbolred.com/copa-sudamericana/hora-formato-y-reglas-de-sorteo-copa-sudamericana-conmebol-2023-millonarios-tolima-y-santa-fe-178823">Mas Articulos</a></h2>
+                    <div class="grid_3">
+                        <img src="images/balon.jpg" alt="Copa Sudamericana" width="220" height="125" />
+                        <p><a href="https://www.futbolred.com/copa-sudamericana/hora-formato-y-reglas-de-sorteo-copa-sudamericana-conmebol-2023-millonarios-tolima-y-santa-fe-178823">ABC del sorteo copa sudamericana</a></p>
+                        <p><a href="https://www.futbolred.com/copa-sudamericana/hora-formato-y-reglas-de-sorteo-copa-sudamericana-conmebol-2023-millonarios-tolima-y-santa-fe-178823">Primero se sortea el Bombo 1, con los equipos que pasarán a ocupar la posición 1 de los grupos A al H, que serán los cabezas de serie en cada uno de los grupos.</a></p>
+                    </div>
+                    <div class=" grid_3">
+                        <img src="images/futbol.jpg" alt="Futbol" width="220" height="125" />
+                        <p><a href="https://thepfsa.co.uk/es/how-to-play-football/">Reglas y como jugar.</a></p>
+                        <p><a href="https://thepfsa.co.uk/es/how-to-play-football/">Jugar al fútbol no es complicado. Es una de las grandes razones por las que el fútbol es tan popular en todo el mundo. El fútbol femenino, que alguna vez fue solo un juego de hombres, ahora también es una atracción deportiva principal y, con justicia, está recibiendo su parte justa de cobertura televisiva.</a></p>
+                    </div>
+                    <div class=" grid_3">
+                        <img src="images/futbol-sala.jpg" alt="futbol sala" width="220" height="125" />
+                        <p><a href="https://mundoentrenamiento.com/futbol-sala-estudio/">Futbol Sala a estudio</a></p>
+                        <p><a href="https://mundoentrenamiento.com/futbol-sala-estudio/">El fútbol sala es un deporte con una elevada repercusión social en España, tanto es así, que hoy en día existen más de 1.500.000 fichas federativas. Aún así los estudios científicos en el campo siguen siendo todavía escasos </a></p>
+                    </div>
+                    <div class="grid_3">
+                        <img src="images/colombia.jpg" alt="futbol Colombiano" width="220" height="125" />
+                        <p><a href="https://gol.caracoltv.com/futbol-internacional/sudamericano-sub-20/jorge-cabezas-hurtado-es-un-jugador-que-no-va-a-tener-techo-seguro-va-triunfar-en-el-futbol-rg10">Jorge Cabeza, va a triunfar en el futbol</a></p>
+                        <p><a href="https://gol.caracoltv.com/futbol-internacional/sudamericano-sub-20/jorge-cabezas-hurtado-es-un-jugador-que-no-va-a-tener-techo-seguro-va-triunfar-en-el-futbol-rg10">Encuesta a los lectores: CCon el pasar de los partidos en el Sudamericano Sub-20 2023 , el delantero Jorge Cabezas Hurtado fue uno de los jugadores que se empezó a consolidar dentro del onceno en la Selección Colombia, a tal punto de comenzar a recibir elogios.</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class=" footer clearfix">
+                <div class="container_12">
+                    <p class="grid_12"><a href="">Información Legal</a> | <a href="">Politicas de Privacidad </a> |
+                        <a href="">Copyright &copy; Pedal
+                            Faster 2024</a>
+                    </p>
+                </div>
+            </div>
+    </body>
+
+</html>
